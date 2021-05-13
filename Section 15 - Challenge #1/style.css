@@ -1,0 +1,15 @@
+.countries {
+    display: flex;
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  .country__img {
+    width: 15rem;
+    height: 9rem;
+    object-fit: cover;
+    background-color: #eee;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+  }
